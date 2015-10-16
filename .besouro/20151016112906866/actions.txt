@@ -1,0 +1,2 @@
+FileOpenedAction 1444984147171 TestBowlingScoreCalculator.java 223 1 1 0
+EditAction 1444984697985 TestBowlingScoreCalculator.java 203 1 0 0
