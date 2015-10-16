@@ -11,14 +11,14 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void test() {
 		
-		int throwOne = 1;
-		int throwTwo = 6;
+		int throwOne = 0;
+		int throwTwo = 10;
 		
 		
 		Frame testiframe = new Frame(throwOne, throwTwo);
 		
 		
-		assertEquals(7, testiframe.score() );
+		assertEquals(10, testiframe.score() );
 		assertEquals(false, testiframe.isStrike());
 		
 			
