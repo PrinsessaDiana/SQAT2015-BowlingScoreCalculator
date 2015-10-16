@@ -17,12 +17,12 @@ public class TestBowlingScoreCalculator {
 		
 		bg.setBonus(1, 5);
            assertEquals(false, bg.isNextFrameBonus() );
-       // bg2.setBonus(2, 8);
-          // assertEquals(true, bg.isNextFrameBonus() );
+        bg2.setBonus(2, 8);
+         assertEquals(true, bg2.isNextFrameBonus() );
         bg3.setBonus(10, 0);
-           assertEquals(true, bg.isNextFrameBonus() );
+           assertEquals(true, bg3.isNextFrameBonus() );
         bg4.setBonus(0, 10);
-           assertEquals(true, bg.isNextFrameBonus() );
+           assertEquals(true, bg4.isNextFrameBonus() );
 		
 		
 		
