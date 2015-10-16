@@ -11,7 +11,16 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		//to be implemented
+		
+		int throwOne = 0;
+		int throwTwo = 0;
+		
+		
+		int score = throwOne + throwTwo;
+		
+		
+		
+		
 		return 0;
 	}
 
