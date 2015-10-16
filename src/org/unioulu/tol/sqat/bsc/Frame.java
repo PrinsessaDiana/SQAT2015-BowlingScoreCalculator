@@ -12,16 +12,17 @@ public class Frame {
 	//the score of a single frame
 	public int score(){
 		
-		int throwOne = 0;
-		int throwTwo = 0;
+		int score = firstThrow + secondThrow;
+		
+		if(score == 0) {
+			
+			return 0;
+		}
+		else {
+			return score;
+		}
 		
 		
-		int score = throwOne + throwTwo;
-		
-		
-		
-		
-		return 0;
 	}
 
 	//returns whether the frame is a strike or not

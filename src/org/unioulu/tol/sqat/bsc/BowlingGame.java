@@ -57,17 +57,12 @@ public class BowlingGame {
 			
 	}
 	
-	public int score() { //Players point which include bonus
+	public int score() { 
 		
-		if(Score == 0) {
+		if(Score > 0) {
 			
+			return Score;
 		}
-		
-		
-		
-		
-		
-		
 		
 		
 		return 0;
@@ -75,9 +70,11 @@ public class BowlingGame {
 	
 	public void setScore(int firstThrow, int secondThrow) {
 		
+         Frame fr = new Frame(firstThrow, firstThrow);
+		
+		this.Score = fr.score();
 		
 		
-		this.Score = firstThrow + secondThrow;
 		
 	}
 	
