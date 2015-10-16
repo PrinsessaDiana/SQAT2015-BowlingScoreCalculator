@@ -12,15 +12,24 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame){
 		
-		boolean round1;
-		boolean round2;
+
 		
 		
 		
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		
+		int nextRoll;
+		int BonusPoint;
+		
+		//Bonus points for getting all pins down in two throws
+		if(firstThrow == 1 && secondThrow == 9 ) {
+			BonusPoint = nextRoll;
+				
+			
+		}
+			
 	}
 	
 	public int score(){
@@ -31,7 +40,9 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus(){
-		//to be implemented
+
+        int bonusPoint;
+		
 		return false;
 	}
 }
