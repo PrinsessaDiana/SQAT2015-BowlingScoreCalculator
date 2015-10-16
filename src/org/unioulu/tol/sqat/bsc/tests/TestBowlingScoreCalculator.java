@@ -30,10 +30,6 @@ public class TestBowlingScoreCalculator {
 		}
 		
 		
-		
-		
-		
-		
 //		BowlingGame bg = new BowlingGame();
 //		BowlingGame bg2 = new BowlingGame();
 //		BowlingGame bg3 = new BowlingGame();
