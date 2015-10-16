@@ -14,12 +14,11 @@ public class TestBowlingScoreCalculator {
 		int throwOne = 4;
 		int throwTwo = 6;
 		
-		BowlingGame bg = new BowlingGame();
+		
 		Frame testiframe = new Frame(throwOne, throwTwo);
 		
-		bg.setScore(2, 8);
 		
-		assertEquals(10, bg.score());
+		assertEquals(7, testiframe.score() );
 		
 			
 			

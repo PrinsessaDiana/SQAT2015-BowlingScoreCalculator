@@ -9,3 +9,12 @@
 1444988951466 test-addition 2 133 true
 1444988951467 test-addition 2 133 true
 1444988951468 test-addition 2 133 true
+1444990265529 refactoring 3 1150 true
+1444990265530 refactoring 3 1150 true
+1444990265531 refactoring 3 1150 true
+1444990265532 refactoring 3 1150 true
+1444990265533 refactoring 3 1150 true
+1444990265534 refactoring 3 1150 true
+1444990265535 refactoring 3 1150 true
+1444990265536 refactoring 3 1150 true
+1444990265537 refactoring 3 1150 true
