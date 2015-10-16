@@ -11,7 +11,7 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void test() {
 		
-		int throwOne = 4;
+		int throwOne = 1;
 		int throwTwo = 6;
 		
 		
