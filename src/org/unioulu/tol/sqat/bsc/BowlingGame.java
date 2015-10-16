@@ -27,11 +27,12 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		
 		int nextRoll = 0;
+		int secondNextRoll = 0;
 		int BonusPoint;
 		
-		//Bonus points for getting all pins down in two throws
+		//Bonus points for getting all pins down in two throws (AKA Spare)
 		if((firstThrow == 0 && secondThrow == 10) ||
-				 (firstThrow == 1 && secondThrow == 9) ||
+				(firstThrow == 1 && secondThrow == 9) ||
 				(firstThrow == 2 && secondThrow == 8) ||
 				(firstThrow == 3 && secondThrow == 7) ||
 				(firstThrow == 4 && secondThrow == 6) ||
@@ -46,12 +47,12 @@ public class BowlingGame {
 			this.spare = true;	
 			
 		}
-			
+			//Bonus points 
 			else if(firstThrow == 10){
 				
-				
-			
-			
+				this.BonusPoint = nextRoll + secondNextRoll;
+				this.strike = true;
+					
 		}
 			
 	}

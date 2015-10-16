@@ -35,3 +35,4 @@ RefactoringAction 1444988247337 BowlingGame.java RENAME setScore()=>void setScor
 RefactoringAction 1444988251859 BowlingGame.java RENAME setScore(int)=>void setScore(int, int) METHOD
 CompilationAction 1444988335940 BowlingGame.java
 EditAction 1444988450601 BowlingGame.java 1780 6 8 0
+EditAction 1444988649166 BowlingGame.java 1899 6 9 0
