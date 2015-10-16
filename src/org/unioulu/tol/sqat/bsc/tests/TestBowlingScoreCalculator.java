@@ -11,8 +11,11 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void test() {
 		
+		int throwOne = 4;
+		int throwTwo = 6;
 		
 		BowlingGame bg = new BowlingGame();
+		Frame testiframe = new Frame(throwOne, throwTwo);
 		
 		bg.setScore(2, 8);
 		
