@@ -13,13 +13,17 @@ public class TestBowlingScoreCalculator {
 		
 		int throwOne = 0;
 		int throwTwo = 10;
-		
+		int throwOne2 = 10;
+		int throwTwo2 = 0;
 		
 		Frame testiframe = new Frame(throwOne, throwTwo);
+		Frame testiframe2 = new Frame(throwOne2, throwTwo2);
 		
 		
 		assertEquals(10, testiframe.score() );
 		assertEquals(false, testiframe.isStrike());
+		assertEquals(10, testiframe2.score() );
+		assertEquals(true, testiframe2.isStrike());
 		
 			
 			
