@@ -24,3 +24,5 @@
 1444990531557 test-addition 1 6 true
 1444990961299 test-addition 1 411 true
 1444990961300 test-addition 1 411 true
+1444991884702 test-last 1 889 false
+1444991884703 test-last 1 889 false

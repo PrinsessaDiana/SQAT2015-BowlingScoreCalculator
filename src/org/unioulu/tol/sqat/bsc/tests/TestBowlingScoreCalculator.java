@@ -23,7 +23,7 @@ public class TestBowlingScoreCalculator {
 		//Testing spare
 		assertEquals(10, testiframe.score() );
 		assertEquals(false, testiframe.isStrike());
-		assertEquals(true, testiframe.isSpare());
+		assertEquals(false, testiframe.isSpare());
 		
 		//Testing strike
 		assertEquals(10, testiframe2.score() );
