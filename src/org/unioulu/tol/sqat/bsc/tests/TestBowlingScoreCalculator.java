@@ -22,7 +22,7 @@ public class TestBowlingScoreCalculator {
         bg3.setBonus(10, 0);
            assertEquals(true, bg.isNextFrameBonus() );
         bg4.setBonus(0, 10);
-           assertEquals(false, bg.isNextFrameBonus() );
+           assertEquals(true, bg.isNextFrameBonus() );
 		
 		
 		
