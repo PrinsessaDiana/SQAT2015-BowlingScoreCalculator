@@ -4,3 +4,13 @@ RefactoringAction 1444984858759 TestBowlingScoreCalculator.java ADD import org.u
 EditAction 1444984974039 BowlingGame.java 583 5 2 0
 EditAction 1444985150638 BowlingGame.java 604 5 4 0
 EditAction 1444986475134 BowlingGame.java 749 5 6 0
+CompilationAction 1444986478685 BowlingGame.java
+CompilationAction 1444986624237 BowlingGame.java
+CompilationAction 1444986624452 BowlingGame.java
+CompilationAction 1444986648625 BowlingGame.java
+CompilationAction 1444986648834 BowlingGame.java
+CompilationAction 1444986701012 BowlingGame.java
+RefactoringAction 1444986874080 BowlingGame.java ADD int BonusPoint FIELD
+RefactoringAction 1444987022913 BowlingGame.java ADD boolean spare FIELD
+RefactoringAction 1444987022914 BowlingGame.java ADD boolean strike FIELD
+EditAction 1444987147334 TestBowlingScoreCalculator.java 374 1 3 1
