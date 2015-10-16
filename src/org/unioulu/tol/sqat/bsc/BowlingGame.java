@@ -1,6 +1,10 @@
 package org.unioulu.tol.sqat.bsc;
 
 import java.util.ArrayList;
+
+//Finished at 13:41
+
+
 import java.util.List;
 
 public class BowlingGame {
