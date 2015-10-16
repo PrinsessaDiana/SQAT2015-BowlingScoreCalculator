@@ -10,16 +10,17 @@ public class BowlingGame {
 	int BonusPoint;
 	boolean spare;
 	boolean strike;
+	private int Score;
 	
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
 		
-     Frame frame1, frame2, frame3, frame4,frame5,frame6,frame7,frame8, frame9, frame10;
 	
-     
 		
-		
+     Frame frame1 = null, frame2, frame3, frame4,frame5,frame6,frame7,frame8, frame9, frame10;
+	
+     	
 		
 	}
 	
@@ -29,7 +30,8 @@ public class BowlingGame {
 		int BonusPoint;
 		
 		//Bonus points for getting all pins down in two throws
-		if((firstThrow == 1 && secondThrow == 9) ||
+		if((firstThrow == 0 && secondThrow == 10) ||
+				 (firstThrow == 1 && secondThrow == 9) ||
 				(firstThrow == 2 && secondThrow == 8) ||
 				(firstThrow == 3 && secondThrow == 7) ||
 				(firstThrow == 4 && secondThrow == 6) ||
@@ -38,21 +40,47 @@ public class BowlingGame {
 				(firstThrow == 7 && secondThrow == 3) ||
 				(firstThrow == 8 && secondThrow == 2) ||
 				(firstThrow == 9 && secondThrow == 1) ) {
-			
+		
 			//Bonus point is the score of next roll
 			this.BonusPoint = nextRoll;
 			this.spare = true;	
 			
 		}
 			
+			else if(firstThrow == 10){
+				
+				
+			
+			
+		}
+			
 	}
 	
-	public int score(){
+	public int score() { //Players point which include bonus
+		
+		if(Score == 0) {
+			
+		}
+		
+		
+		
+		
+		
 		
 		
 		
 		return 0;
 	}
+	
+	public void setScore(int firstThrow, int secondThrow) {
+		
+		
+		
+		this.Score = firstThrow + secondThrow;
+		
+	}
+	
+	
 	
 	public boolean isNextFrameBonus(){
 
