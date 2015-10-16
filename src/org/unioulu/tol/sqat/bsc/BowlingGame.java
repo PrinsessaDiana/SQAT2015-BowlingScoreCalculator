@@ -17,12 +17,13 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		
 		
-     Frame frame1, frame2, frame3, frame4,frame5,frame6,frame7,frame8, frame9, frame10;
-	
+		Frame frame1 = null;
+		frames.add(frame1);
+		
+		
     
-     	frame2.score();
-     	frame3.score();
-     	frame4.score();
+    
+     	
      	
 		
 	}
@@ -31,7 +32,7 @@ public class BowlingGame {
 		
 		int nextRoll = 0;
 		int secondNextRoll = 0;
-		int BonusPoint;
+		
 		
 		//Bonus points for getting all pins down in two throws (AKA Spare)
 		if((firstThrow == 0 && secondThrow == 10) ||
