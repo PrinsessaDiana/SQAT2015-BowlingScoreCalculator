@@ -88,3 +88,12 @@ EditAction 1444990524930 TestBowlingScoreCalculator.java 1253 1 10 4
 UnitTestCaseAction 1444990531556 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444990531557 TestBowlingScoreCalculator OK
 EditAction 1444990550266 TestBowlingScoreCalculator.java 1237 1 10 4
+CompilationAction 1444990819352 BowlingGame.java
+CompilationAction 1444990819354 BowlingGame.java
+CompilationAction 1444990819354 BowlingGame.java
+RefactoringAction 1444990850008 TestBowlingScoreCalculator.java RENAME test()=>void testingFrameClass() METHOD
+RefactoringAction 1444990855523 TestBowlingScoreCalculator.java RENAME testingFrameClass()=>void testingFrameClassScore() METHOD
+RefactoringAction 1444990864538 TestBowlingScoreCalculator.java ADD void testingFrameClassScore()/2 METHOD
+RefactoringAction 1444990879567 TestBowlingScoreCalculator.java RENAME testingFrameClassScore()/2=>void testingBowlingGameClassScore() METHOD
+RefactoringAction 1444990885582 TestBowlingScoreCalculator.java RENAME testingBowlingGameClassScore()=>void testingBowlingGameClassBonus() METHOD
+EditAction 1444990949690 TestBowlingScoreCalculator.java 1275 2 22 8
