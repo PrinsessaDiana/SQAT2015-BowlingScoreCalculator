@@ -19,6 +19,7 @@ public class TestBowlingScoreCalculator {
 		
 		
 		assertEquals(7, testiframe.score() );
+		assertEquals(false, testiframe.isStrike());
 		
 			
 			
