@@ -17,10 +17,27 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		
 		
-		Frame frame1 = null;
+		Frame frame1 = null,
+			  frame2 = null,
+			  frame3 = null,
+			  frame4 = null,
+			  frame5 = null,
+			  frame6 = null,
+			  frame7 = null,
+			  frame8 = null,
+			  frame9 = null,
+			  frame10 = null;
+		
 		frames.add(frame1);
-		
-		
+		frames.add(frame2);
+		frames.add(frame3);
+		frames.add(frame4);
+		frames.add(frame5);
+		frames.add(frame6);
+		frames.add(frame7);
+		frames.add(frame8);
+		frames.add(frame9);
+		frames.add(frame10);
     
     
      	
