@@ -12,7 +12,7 @@ public class TestBowlingScoreCalculator {
 		
 		BowlingGame bg = new BowlingGame();
 		
-		bg.setBonus(10, 0);
+		bg.setBonus(1, 5);
 		
 		assertEquals(false, bg.isNextFrameBonus() );
 		
