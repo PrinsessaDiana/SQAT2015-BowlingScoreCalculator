@@ -1,2 +1,4 @@
 FileOpenedAction 1444984147171 TestBowlingScoreCalculator.java 223 1 1 0
 EditAction 1444984697985 TestBowlingScoreCalculator.java 203 1 0 0
+RefactoringAction 1444984858759 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+EditAction 1444984974039 BowlingGame.java 583 5 2 0
